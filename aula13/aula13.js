@@ -20,11 +20,11 @@ console.log(umaString.concat(' ', 'concatenado.'));
 //Um "texto" concatenado.
 
 //acha o index da letra
-console.log(umaString.indexOf('o', 3));
+console.log(umaString.indexOf('o'));
 //8
 
 //acha o index da letra começando de trás para frente
-console.log(umaString.lastIndexOf('m', 3));
+console.log(umaString.lastIndexOf('m'));
 //1
 
 //troca a palavar indicada
@@ -46,7 +46,7 @@ console.log(duasString.length);
 console.log(duasString.slice(2, 6));
 //rato
 
-//separa as strings cpm base no valor indicado
+//separa as strings com base no valor indicado
 console.log(duasString.split(' '));
 /* 
 ['O','rato','roeu', 'a','roupa' ,'do', 'rei', 'de', 'roma']
