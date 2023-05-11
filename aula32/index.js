@@ -1,3 +1,5 @@
+// Atribuição via desestruturação(objeto) 
+//
 const pessoa  = {
     firstName: 'Luiz',
     lastName: 'Miranda',
